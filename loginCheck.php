@@ -14,9 +14,10 @@ if($row=mysqli_fetch_array($result)){
         setcookie("password",$password,time()-1);
     }
     $_SESSION['username']=$username;
-    header("location:menu.php");
+    header("location:mrewenu.php");
 }else{
-    echo "login fail";
+    echo "qwefsdalogin fail";
 }
+ssrw
 
 ?>
